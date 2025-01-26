@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.playlist-card:hover .playlist-fade {
+  opacity: 1;
+}
+.screengredient{
+  background-color: #1e2a3e;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at center left,
+      transparent 0,
+      #1e2a3e 80px
+    ),
+    repeating-linear-gradient(#23365655, #233656)
+}
